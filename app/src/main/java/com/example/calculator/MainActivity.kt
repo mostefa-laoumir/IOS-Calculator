@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun buPercent(view: View){
         val number:Double = editText.text.toString().toDouble()/100
-        editText.setText(number.toString())
+        editText.setText(number.toString() + "%")
         isNewOp=true
 
     }
