@@ -37,6 +37,15 @@ class MainActivity : AppCompatActivity() {
         }
         editText.setText(buClicked)
     }
+enum class Bit {
+  ZERO, ONE
+}
+
+val numericValue = when (getRandomBit()) {
+    Bit.ZERO -> 0
+    Bit.ONE -> 1
+    // the 'else' clause is not required because all cases are covered
+}
     var op="*"
     var oldNumber = ""
     var isNewOp = true
