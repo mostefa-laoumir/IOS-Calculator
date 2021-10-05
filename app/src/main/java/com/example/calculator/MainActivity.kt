@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity() {
             R.id.com->buClicked+="."
         }
         editText.setText(buClicked)
+        editText.setText(buClicked)editText.setText(buClicked)
+        editText.setText(buClicked)
     }
 enum class Bit {
   ZERO, ONE
