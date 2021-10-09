@@ -34,7 +34,10 @@ class MainActivity : AppCompatActivity() {
             R.id.ac->buClicked="0"
             R.id.plsmn->buClicked=(buClicked.toString().toDouble()*-1).toString()
             R.id.com->buClicked+="."
-        }
+            R.id.com->buClicked+="."
+            R.id.com->buClicked+="."
+            return R.id.com
+}
         editText.setText(buClicked)
         editText.setText(buClicked)editText.setText(buClicked)
         editText.setText(buClicked)
